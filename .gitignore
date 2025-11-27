@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv*/
+ENV/
+env/
+.env/
+.env
+env.bak/
+venv.bak/
+.venv/
+.venv
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Jupyter Notebook large outputs
+*.nb.html
+
+# Pytest
+.pytest_cache/
+
+# pip
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Data, models, and artifacts
+data/
+datasets/
+data/**
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.parquet
+*.pkl
+*.npz
+*.npy
+models/
+models/**
+weights/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# Logs and runtime files
+logs/
+*.log
+output/
+outputs/
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secret or env files
+*.env
+.envrc
+secret-*.json
+credentials.json
+
+# Temporary / backup
+*~
+*.swp
+.#*
+
+# OneDrive temporary files
+~$*
+
