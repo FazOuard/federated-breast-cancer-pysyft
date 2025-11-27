@@ -17,3 +17,5 @@ In the other hand, the researcher log into their account, get answers and allow 
 Next step is the organisation which review the audit code, execute it and submits results.
 
 So for this specific project I used a well known dataset Breast Cancer from sklearn and then made the magical cycle.
+
+The full video : https://youtu.be/9fJ8b51YzCQ?si=za6EMvWgxJqiO1JS
