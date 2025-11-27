@@ -8,7 +8,7 @@ Demonstration of a simple federated learning workflow using PySyft and the sciki
 
 
 # Federated Learning Breast Cancer with Pysyft
-This project is a testing for the Pysyft package which is an Open Source framework that let Data Scents/researchers do their work while maintaining privacy!
+This project is a testing for the Pysyft package which is an Open Source framework that let Data Scientists/researchers do their work while maintaining privacy!
 Pysyft comes as a middle between an organisation and a researcher.
 The organisation load the metadata into the server:Datasite, it creates an account for external researcher and then goes to drink their coffee.
 
