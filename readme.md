@@ -1,19 +1,24 @@
 # Federated Breast Cancer (PySyft)
 
-Demonstration of a simple federated learning workflow using PySyft and the scikit-learn breast cancer dataset. This repository contains notebooks and notes used to explore privacy-preserving model training and audit workflows between an organisation and external researchers.
+Demonstration of a simple federated learning workflow using PySyft and the scikit-learn breast cancer dataset. This repo contains the notebooks and notes I used to explore privacy‑preserving model training and audit workflows between an organisation and external researchers.
 
 ## Contents
-- `datascientist.ipynb` — exploratory notebook with training/experiments.
-- `organisation.ipynb` — project notes and process documentation.
 
+- `datascientist.ipynb` — training, experiments and playing with the model.
+- `organisation.ipynb` — project notes and the organisation-side process.
 
-# Federated Learning Breast Cancer with Pysyft
-This project is a testing for the Pysyft package which is an Open Source framework that let Data Scientists/researchers do their work while maintaining privacy!
-Pysyft comes as a middle between an organisation and a researcher.
-The organisation load the metadata into the server:Datasite, it creates an account for external researcher and then goes to drink their coffee.
+---
 
-In the other hand, the researcher log into their account, get answers and allow questions: a code for example in the mock data created by the organisation which is a synthetic artificial version of the dataset and then download the answers.
+# Federated Learning Breast Cancer with PySyft
 
-Next step is the organisation which review the audit code, execute it and submits results.
+This project is a test playground for the PySyft package, an open‑source framework that lets data scientists and researchers do their work while keeping data private.
 
-So for this specific project I used a well known dataset Breast Cancer from sklearn and then made the magical cycle.
+PySyft sits in the middle between an organisation and a researcher:
+
+- The **organisation** loads the metadata and real data into the server (Datasite), creates an account for the external researcher, sets up some mock data (a synthetic version of the real dataset)… and then goes to drink their coffee.
+
+- On the other hand, the **researcher** logs into their account, runs code on the mock data created by the organisation, and downloads the results and logs.
+
+- Next step: the **organisation** reviews the audit code, executes it on the real data, and submits the results back to the researcher.
+
+For this specific project, I used the well‑known Breast Cancer dataset from scikit‑learn and ran it through this “magical” PySyft cycle.
