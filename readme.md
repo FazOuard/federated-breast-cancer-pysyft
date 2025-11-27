@@ -1,14 +1,3 @@
-# Federated Breast Cancer (PySyft)
-
-Demonstration of a simple federated learning workflow using PySyft and the scikit-learn breast cancer dataset. This repo contains the notebooks and notes I used to explore privacy‑preserving model training and audit workflows between an organisation and external researchers.
-
-## Contents
-
-- `datascientist.ipynb` — training, experiments and playing with the model.
-- `organisation.ipynb` — project notes and the organisation-side process.
-
----
-
 # Federated Learning Breast Cancer with PySyft
 
 This project is a test playground for the PySyft package, an open‑source framework that lets data scientists and researchers do their work while keeping data private.
@@ -22,3 +11,12 @@ PySyft sits in the middle between an organisation and a researcher:
 - Next step: the **organisation** reviews the audit code, executes it on the real data, and submits the results back to the researcher.
 
 For this specific project, I used the well‑known Breast Cancer dataset from scikit‑learn and ran it through this “magical” PySyft cycle.
+
+---
+
+## Contents
+
+- `datascientist.ipynb` — training, experiments and playing with the model.
+- `organisation.ipynb` — project notes and the organisation-side process.
+
+
